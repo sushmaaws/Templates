@@ -18,8 +18,6 @@
 ,
       "ConstraintDescription" : "must be a valid EC2 instance type."
     },
-	
-	"AvailabilityZone" :{"Type":"String"},
 
     "SSHLocation" : {
       "Description" : "The IP address range that can be used to SSH to the EC2 instances",
@@ -184,8 +182,7 @@
     {
       "Type" : "AWS::EC2::Volume",
       "Properties" : {
-         "AvailabilityZone" : {"Ref":"AvailabilityZone"},
-         "Encrypted" : "true",
+        "Encrypted" : "true",
         "KeyName" : { "Ref" : "KeyName" },
         "Size" : "2",
         "Tags" : [ {"Key":"user","Value":"sushma"} ],
