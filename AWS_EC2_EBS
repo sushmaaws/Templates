@@ -185,7 +185,8 @@
         "Encrypted" : "true",
         "Size" : "2",
         "Tags" : [ {"Key":"user","Value":"sushma"} ],
-        "VolumeType" : "gp2"
+        "VolumeType" : "gp2",
+		"AvailabilityZone" : {"Ref" : "AWS::Region"}
      }  
     },
 	"EBSVolumeAttachment" :
