@@ -186,7 +186,7 @@
         "Size" : "2",
         "Tags" : [ {"Key":"user","Value":"sushma"} ],
         "VolumeType" : "gp2",
-		"AvailabilityZone" : "us-west-2a"
+		"AvailabilityZone" : "us-west-2c"
      }  
     },
 	"EBSVolumeAttachment" :
